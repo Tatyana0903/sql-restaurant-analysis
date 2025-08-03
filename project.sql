@@ -58,7 +58,7 @@ CASE
     WHEN review > 2 THEN 'Fair'
     ELSE 'Poor'
 END AS "Review"
-FROM nomnom; -- Fixed typo (was 'nownow')
+FROM nomnom;
 
 
 
